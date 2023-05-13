@@ -1,0 +1,11 @@
+parameter	value
+pastml_version	1.9.34
+character	country
+method	DELTRAN
+num_nodes	121309
+num_scenarios	15564440312192434176
+num_states_per_node_avg	1.0005358217444706
+num_tips	101776
+num_unresolved_nodes	62
+percentage_of_unresolved_nodes	0.05110915101105441
+steps	7919
