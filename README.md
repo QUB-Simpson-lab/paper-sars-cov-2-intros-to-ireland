@@ -1,4 +1,4 @@
-# SARS-CoV-2 Introductions to the Island of Ireland
+# SARS-CoV-2 introductions to the island of Ireland
 Source files for the <a href=https://doi.org/10.1101/2023.05.11.23289783>study</a> by<br>
 Alan M. Rice<sup>1,†,‡</sup>,<br>
 Evan P. Troendle<sup>1,†</sup>,<br>
