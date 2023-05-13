@@ -1,9 +1,9 @@
 # SARS-CoV-2 Introductions to the Island of Ireland
-Source files for the study by<br>
+Source files for the <a href=https://doi.org/10.1101/2023.05.11.23289783>study</a> by<br>
 Alan M. Rice<sup>1,†,‡</sup>,<br>
 Evan P. Troendle<sup>1,†</sup>,<br>
 Stephen Bridgett<sup>1</sup>,<br>
-Behnam F. Nejad<sup>2</sup>,<br>
+Behnam Firoozi Nejad<sup>2</sup>,<br>
 Jennifer M. McKinley<sup>2</sup>,<br>
 The COVID-19 Genomics UK consortium<sup>3</sup>,<br>
 National SARS-CoV-2 Surveillance \& Whole Genome Sequencing (WGS) Programme<sup>4</sup>,<br>
@@ -29,4 +29,4 @@ Author affiliations:<br>
 <sup>*</sup> Correspondence to <a href=mailto:t.skvortsov@qub.ac.uk>t.skvortsov@qub.ac.uk</a> and <a href=mailto:david.simpson@qub.ac.uk>david.simpson@qub.ac.uk</a><br>
 <br>
 Preprint is hosted at:<br>
-<a href=https://www.medrxiv.org/content/10.1101/2023.05.11.23289783v1>https://www.medrxiv.org/content/10.1101/2023.05.11.23289783v1</a>
+<a href=https://doi.org/10.1101/2023.05.11.23289783>https://doi.org/10.1101/2023.05.11.23289783</a>
