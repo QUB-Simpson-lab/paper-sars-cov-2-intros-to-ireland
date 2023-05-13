@@ -1,0 +1,128 @@
+Chronumental 0.0.50
+Platform: cpu
+Reading ../../datasets/GISAID/GISAID-hCoV-19-phylogeny-2022-04-04/date_file.tsv
+Using strain as the name column. This must be the name of the taxa in the tree.
+Using ['date', 'strain'] as the fields to parse.
+Reading metadata
+Reading ../../datasets/GISAID/GISAID-hCoV-19-phylogeny-2022-04-04/date_file.tsv
+Reading tree
+Assuming tree file is newick (change extension for nexus)
+Processing dates
+Using EPI_ISL_402123, with date: 2019-12-24 00:00:00 and distance from root 2.0 as an arbitrary reference point
+Creating target date array |████████████████████████████████████████| 7603547 in 1:27.9 (86488.33/s)
+Found 7603547 terminals with usable date metadata
+finding initial branch_lengths |████████████████████████████████████████| 9122826 in 21.4s (425570.64/s)
+Counting tree for sparse matrix creation |████████████████████████████████████████| 7603547 in 51.0s (149021.50/s)
+Populating sparse matrix rows, cols |████████████████████████████████████████| 7603547 in 3:19.1 (38196.40/s)
+Rows array created
+Cols array created
+No clock rate specified, performing root-to-tip regression to estimate starting value
+Root to tip regression: got rate of: 48.856058178524385
+Performing SVI:
+step:0	loss:2035216547840.0000	date_cor:0.8376	date_error:171.6216	date_error_med:162.1750	max_date_error:788.2697	length_cor:0.9883	root_date:-14.8419	mutation_rate:44.2068
+step:10	loss:315770601472.0000	date_cor:0.8648	date_error:67.5174	date_error_med:60.4106	max_date_error:775.5165	length_cor:0.8752	root_date:-14.2842	mutation_rate:18.2210
+step:20	loss:121837879296.0000	date_cor:0.9520	date_error:42.8845	date_error_med:40.7277	max_date_error:778.0973	length_cor:0.6629	root_date:-14.2499	mutation_rate:19.7428
+step:30	loss:43835858944.0000	date_cor:0.9768	date_error:24.4098	date_error_med:17.8867	max_date_error:776.5943	length_cor:0.4791	root_date:-14.1064	mutation_rate:18.8761
+step:40	loss:19917660160.0000	date_cor:0.9881	date_error:17.5238	date_error_med:12.9359	max_date_error:775.5005	length_cor:0.3599	root_date:-14.1055	mutation_rate:16.1175
+step:50	loss:10433001472.0000	date_cor:0.9899	date_error:11.6493	date_error_med:7.5027	max_date_error:776.3313	length_cor:0.3904	root_date:-14.0624	mutation_rate:18.4759
+step:60	loss:7439501824.0000	date_cor:0.9913	date_error:9.4345	date_error_med:5.6434	max_date_error:775.5566	length_cor:0.3953	root_date:-14.0653	mutation_rate:17.4739
+step:70	loss:5708423680.0000	date_cor:0.9920	date_error:7.6851	date_error_med:3.9023	max_date_error:776.1068	length_cor:0.3740	root_date:-14.0650	mutation_rate:16.6021
+step:80	loss:4998742016.0000	date_cor:0.9923	date_error:6.7132	date_error_med:2.8858	max_date_error:775.7966	length_cor:0.3771	root_date:-14.0659	mutation_rate:16.1321
+step:90	loss:4536206336.0000	date_cor:0.9926	date_error:6.4100	date_error_med:2.8664	max_date_error:776.0379	length_cor:0.3767	root_date:-14.0700	mutation_rate:15.7517
+step:100	loss:4232199168.0000	date_cor:0.9927	date_error:5.8695	date_error_med:2.3667	max_date_error:775.9354	length_cor:0.3750	root_date:-14.0708	mutation_rate:15.5049
+step:110	loss:4017530368.0000	date_cor:0.9928	date_error:5.5234	date_error_med:2.0762	max_date_error:776.0109	length_cor:0.3734	root_date:-14.0724	mutation_rate:15.3496
+step:120	loss:3847809536.0000	date_cor:0.9929	date_error:5.3086	date_error_med:1.9266	max_date_error:776.0013	length_cor:0.3729	root_date:-14.0739	mutation_rate:15.2022
+step:130	loss:3715770368.0000	date_cor:0.9929	date_error:5.1180	date_error_med:1.7961	max_date_error:776.0194	length_cor:0.3720	root_date:-14.0751	mutation_rate:15.1140
+step:140	loss:3606629376.0000	date_cor:0.9930	date_error:4.9511	date_error_med:1.6788	max_date_error:776.0337	length_cor:0.3714	root_date:-14.0761	mutation_rate:15.0417
+step:150	loss:3515192832.0000	date_cor:0.9930	date_error:4.8182	date_error_med:1.5925	max_date_error:776.0364	length_cor:0.3707	root_date:-14.0769	mutation_rate:15.0010
+step:160	loss:3437100544.0000	date_cor:0.9931	date_error:4.7139	date_error_med:1.5252	max_date_error:776.0493	length_cor:0.3703	root_date:-14.0777	mutation_rate:14.9717
+step:170	loss:3369419776.0000	date_cor:0.9931	date_error:4.6275	date_error_med:1.4772	max_date_error:776.0540	length_cor:0.3698	root_date:-14.0784	mutation_rate:14.9556
+step:180	loss:3310151680.0000	date_cor:0.9931	date_error:4.5526	date_error_med:1.4376	max_date_error:776.0601	length_cor:0.3694	root_date:-14.0789	mutation_rate:14.9519
+step:190	loss:3257664256.0000	date_cor:0.9931	date_error:4.4861	date_error_med:1.4004	max_date_error:776.0657	length_cor:0.3689	root_date:-14.0794	mutation_rate:14.9540
+step:200	loss:3210927872.0000	date_cor:0.9932	date_error:4.4283	date_error_med:1.3691	max_date_error:776.0693	length_cor:0.3685	root_date:-14.0798	mutation_rate:14.9631
+step:210	loss:3168958464.0000	date_cor:0.9932	date_error:4.3778	date_error_med:1.3408	max_date_error:776.0729	length_cor:0.3682	root_date:-14.0801	mutation_rate:14.9765
+step:220	loss:3131085056.0000	date_cor:0.9932	date_error:4.3329	date_error_med:1.3179	max_date_error:776.0758	length_cor:0.3678	root_date:-14.0804	mutation_rate:14.9933
+step:230	loss:3096729088.0000	date_cor:0.9932	date_error:4.2924	date_error_med:1.2949	max_date_error:776.0779	length_cor:0.3675	root_date:-14.0806	mutation_rate:15.0134
+step:240	loss:3065427456.0000	date_cor:0.9932	date_error:4.2556	date_error_med:1.2751	max_date_error:776.0797	length_cor:0.3671	root_date:-14.0808	mutation_rate:15.0353
+step:250	loss:3036852224.0000	date_cor:0.9932	date_error:4.2223	date_error_med:1.2562	max_date_error:776.0809	length_cor:0.3668	root_date:-14.0809	mutation_rate:15.0588
+step:260	loss:3010670592.0000	date_cor:0.9932	date_error:4.1921	date_error_med:1.2394	max_date_error:776.0816	length_cor:0.3665	root_date:-14.0810	mutation_rate:15.0838
+step:270	loss:2986623744.0000	date_cor:0.9933	date_error:4.1648	date_error_med:1.2246	max_date_error:776.0820	length_cor:0.3663	root_date:-14.0810	mutation_rate:15.1098
+step:280	loss:2964445952.0000	date_cor:0.9933	date_error:4.1399	date_error_med:1.2100	max_date_error:776.0819	length_cor:0.3660	root_date:-14.0810	mutation_rate:15.1366
+step:290	loss:2943901184.0000	date_cor:0.9933	date_error:4.1169	date_error_med:1.1976	max_date_error:776.0814	length_cor:0.3658	root_date:-14.0809	mutation_rate:15.1639
+step:300	loss:2924918528.0000	date_cor:0.9933	date_error:4.0960	date_error_med:1.1858	max_date_error:776.0807	length_cor:0.3656	root_date:-14.0808	mutation_rate:15.1914
+step:310	loss:2907252224.0000	date_cor:0.9933	date_error:4.0766	date_error_med:1.1747	max_date_error:776.0795	length_cor:0.3654	root_date:-14.0807	mutation_rate:15.2192
+step:320	loss:2890833152.0000	date_cor:0.9933	date_error:4.0589	date_error_med:1.1641	max_date_error:776.0781	length_cor:0.3652	root_date:-14.0806	mutation_rate:15.2470
+step:330	loss:2875497472.0000	date_cor:0.9933	date_error:4.0425	date_error_med:1.1549	max_date_error:776.0764	length_cor:0.3650	root_date:-14.0804	mutation_rate:15.2748
+step:340	loss:2861122048.0000	date_cor:0.9933	date_error:4.0272	date_error_med:1.1456	max_date_error:776.0743	length_cor:0.3649	root_date:-14.0802	mutation_rate:15.3023
+step:350	loss:2847634944.0000	date_cor:0.9933	date_error:4.0129	date_error_med:1.1365	max_date_error:776.0720	length_cor:0.3647	root_date:-14.0800	mutation_rate:15.3295
+step:360	loss:2834912256.0000	date_cor:0.9933	date_error:3.9994	date_error_med:1.1282	max_date_error:776.0694	length_cor:0.3646	root_date:-14.0797	mutation_rate:15.3563
+step:370	loss:2822942976.0000	date_cor:0.9933	date_error:3.9868	date_error_med:1.1198	max_date_error:776.0665	length_cor:0.3644	root_date:-14.0794	mutation_rate:15.3824
+step:380	loss:2811644928.0000	date_cor:0.9933	date_error:3.9750	date_error_med:1.1121	max_date_error:776.0635	length_cor:0.3643	root_date:-14.0791	mutation_rate:15.4082
+step:390	loss:2800963584.0000	date_cor:0.9933	date_error:3.9639	date_error_med:1.1051	max_date_error:776.0602	length_cor:0.3642	root_date:-14.0788	mutation_rate:15.4335
+step:400	loss:2790867456.0000	date_cor:0.9933	date_error:3.9533	date_error_med:1.0980	max_date_error:776.0566	length_cor:0.3641	root_date:-14.0785	mutation_rate:15.4582
+step:410	loss:2781252864.0000	date_cor:0.9933	date_error:3.9432	date_error_med:1.0903	max_date_error:776.0529	length_cor:0.3640	root_date:-14.0781	mutation_rate:15.4825
+step:420	loss:2772122624.0000	date_cor:0.9933	date_error:3.9338	date_error_med:1.0842	max_date_error:776.0490	length_cor:0.3639	root_date:-14.0777	mutation_rate:15.5061
+step:430	loss:2763462912.0000	date_cor:0.9933	date_error:3.9249	date_error_med:1.0786	max_date_error:776.0449	length_cor:0.3638	root_date:-14.0773	mutation_rate:15.5290
+step:440	loss:2755176704.0000	date_cor:0.9933	date_error:3.9162	date_error_med:1.0741	max_date_error:776.0405	length_cor:0.3637	root_date:-14.0769	mutation_rate:15.5515
+step:450	loss:2747300864.0000	date_cor:0.9934	date_error:3.9081	date_error_med:1.0685	max_date_error:776.0360	length_cor:0.3636	root_date:-14.0765	mutation_rate:15.5734
+step:460	loss:2739786240.0000	date_cor:0.9934	date_error:3.9003	date_error_med:1.0632	max_date_error:776.0313	length_cor:0.3636	root_date:-14.0760	mutation_rate:15.5947
+step:470	loss:2732590592.0000	date_cor:0.9934	date_error:3.8930	date_error_med:1.0585	max_date_error:776.0265	length_cor:0.3635	root_date:-14.0755	mutation_rate:15.6156
+step:480	loss:2725721344.0000	date_cor:0.9934	date_error:3.8858	date_error_med:1.0540	max_date_error:776.0214	length_cor:0.3635	root_date:-14.0750	mutation_rate:15.6360
+step:490	loss:2719165696.0000	date_cor:0.9934	date_error:3.8792	date_error_med:1.0495	max_date_error:776.0162	length_cor:0.3634	root_date:-14.0746	mutation_rate:15.6558
+step:500	loss:2712859392.0000	date_cor:0.9934	date_error:3.8727	date_error_med:1.0446	max_date_error:776.0109	length_cor:0.3634	root_date:-14.0740	mutation_rate:15.6754
+step:510	loss:2706832384.0000	date_cor:0.9934	date_error:3.8667	date_error_med:1.0405	max_date_error:776.0054	length_cor:0.3633	root_date:-14.0735	mutation_rate:15.6945
+step:520	loss:2701061376.0000	date_cor:0.9934	date_error:3.8609	date_error_med:1.0361	max_date_error:775.9998	length_cor:0.3633	root_date:-14.0730	mutation_rate:15.7130
+step:530	loss:2695516416.0000	date_cor:0.9934	date_error:3.8554	date_error_med:1.0328	max_date_error:775.9940	length_cor:0.3632	root_date:-14.0724	mutation_rate:15.7313
+step:540	loss:2690174464.0000	date_cor:0.9934	date_error:3.8501	date_error_med:1.0295	max_date_error:775.9880	length_cor:0.3632	root_date:-14.0719	mutation_rate:15.7492
+step:550	loss:2685022208.0000	date_cor:0.9934	date_error:3.8451	date_error_med:1.0259	max_date_error:775.9820	length_cor:0.3632	root_date:-14.0713	mutation_rate:15.7667
+step:560	loss:2680071936.0000	date_cor:0.9934	date_error:3.8401	date_error_med:1.0223	max_date_error:775.9758	length_cor:0.3632	root_date:-14.0707	mutation_rate:15.7836
+step:570	loss:2675289344.0000	date_cor:0.9934	date_error:3.8355	date_error_med:1.0188	max_date_error:775.9695	length_cor:0.3631	root_date:-14.0701	mutation_rate:15.8001
+step:580	loss:2670686208.0000	date_cor:0.9934	date_error:3.8310	date_error_med:1.0156	max_date_error:775.9631	length_cor:0.3631	root_date:-14.0695	mutation_rate:15.8162
+step:590	loss:2666245632.0000	date_cor:0.9934	date_error:3.8266	date_error_med:1.0126	max_date_error:775.9565	length_cor:0.3631	root_date:-14.0689	mutation_rate:15.8320
+step:600	loss:2661944832.0000	date_cor:0.9934	date_error:3.8225	date_error_med:1.0099	max_date_error:775.9498	length_cor:0.3631	root_date:-14.0683	mutation_rate:15.8476
+step:610	loss:2657773568.0000	date_cor:0.9934	date_error:3.8185	date_error_med:1.0070	max_date_error:775.9431	length_cor:0.3631	root_date:-14.0676	mutation_rate:15.8628
+step:620	loss:2653727232.0000	date_cor:0.9934	date_error:3.8147	date_error_med:1.0043	max_date_error:775.9362	length_cor:0.3631	root_date:-14.0670	mutation_rate:15.8775
+step:630	loss:2649828864.0000	date_cor:0.9934	date_error:3.8108	date_error_med:1.0013	max_date_error:775.9292	length_cor:0.3631	root_date:-14.0663	mutation_rate:15.8917
+step:640	loss:2646040576.0000	date_cor:0.9934	date_error:3.8071	date_error_med:0.9984	max_date_error:775.9221	length_cor:0.3631	root_date:-14.0657	mutation_rate:15.9057
+step:650	loss:2642375424.0000	date_cor:0.9934	date_error:3.8037	date_error_med:0.9960	max_date_error:775.9149	length_cor:0.3631	root_date:-14.0650	mutation_rate:15.9195
+step:660	loss:2638805760.0000	date_cor:0.9934	date_error:3.8003	date_error_med:0.9932	max_date_error:775.9077	length_cor:0.3631	root_date:-14.0643	mutation_rate:15.9330
+step:670	loss:2635340032.0000	date_cor:0.9934	date_error:3.7971	date_error_med:0.9909	max_date_error:775.9003	length_cor:0.3631	root_date:-14.0637	mutation_rate:15.9461
+step:680	loss:2631982848.0000	date_cor:0.9934	date_error:3.7939	date_error_med:0.9886	max_date_error:775.8928	length_cor:0.3631	root_date:-14.0630	mutation_rate:15.9588
+step:690	loss:2628723968.0000	date_cor:0.9934	date_error:3.7908	date_error_med:0.9863	max_date_error:775.8853	length_cor:0.3631	root_date:-14.0623	mutation_rate:15.9713
+step:700	loss:2625556480.0000	date_cor:0.9934	date_error:3.7878	date_error_med:0.9837	max_date_error:775.8776	length_cor:0.3631	root_date:-14.0616	mutation_rate:15.9836
+step:710	loss:2622476800.0000	date_cor:0.9934	date_error:3.7850	date_error_med:0.9818	max_date_error:775.8698	length_cor:0.3632	root_date:-14.0609	mutation_rate:15.9957
+step:720	loss:2619478784.0000	date_cor:0.9934	date_error:3.7823	date_error_med:0.9798	max_date_error:775.8619	length_cor:0.3632	root_date:-14.0602	mutation_rate:16.0076
+step:730	loss:2616555008.0000	date_cor:0.9934	date_error:3.7796	date_error_med:0.9778	max_date_error:775.8540	length_cor:0.3632	root_date:-14.0594	mutation_rate:16.0191
+step:740	loss:2613716224.0000	date_cor:0.9934	date_error:3.7770	date_error_med:0.9760	max_date_error:775.8460	length_cor:0.3632	root_date:-14.0587	mutation_rate:16.0305
+step:750	loss:2610953216.0000	date_cor:0.9934	date_error:3.7746	date_error_med:0.9743	max_date_error:775.8379	length_cor:0.3632	root_date:-14.0580	mutation_rate:16.0416
+step:760	loss:2608256512.0000	date_cor:0.9934	date_error:3.7722	date_error_med:0.9725	max_date_error:775.8297	length_cor:0.3633	root_date:-14.0572	mutation_rate:16.0526
+step:770	loss:2605627904.0000	date_cor:0.9934	date_error:3.7699	date_error_med:0.9705	max_date_error:775.8214	length_cor:0.3633	root_date:-14.0565	mutation_rate:16.0634
+step:780	loss:2603055872.0000	date_cor:0.9934	date_error:3.7676	date_error_med:0.9686	max_date_error:775.8131	length_cor:0.3633	root_date:-14.0557	mutation_rate:16.0739
+step:790	loss:2600547328.0000	date_cor:0.9934	date_error:3.7653	date_error_med:0.9666	max_date_error:775.8046	length_cor:0.3634	root_date:-14.0550	mutation_rate:16.0842
+step:800	loss:2598097664.0000	date_cor:0.9934	date_error:3.7632	date_error_med:0.9650	max_date_error:775.7961	length_cor:0.3634	root_date:-14.0542	mutation_rate:16.0943
+step:810	loss:2595712256.0000	date_cor:0.9934	date_error:3.7611	date_error_med:0.9636	max_date_error:775.7875	length_cor:0.3634	root_date:-14.0534	mutation_rate:16.1041
+step:820	loss:2593369856.0000	date_cor:0.9934	date_error:3.7592	date_error_med:0.9623	max_date_error:775.7789	length_cor:0.3634	root_date:-14.0527	mutation_rate:16.1138
+step:830	loss:2591079936.0000	date_cor:0.9934	date_error:3.7571	date_error_med:0.9604	max_date_error:775.7701	length_cor:0.3635	root_date:-14.0519	mutation_rate:16.1233
+step:840	loss:2588842496.0000	date_cor:0.9934	date_error:3.7553	date_error_med:0.9588	max_date_error:775.7614	length_cor:0.3635	root_date:-14.0511	mutation_rate:16.1327
+step:850	loss:2586647552.0000	date_cor:0.9934	date_error:3.7534	date_error_med:0.9574	max_date_error:775.7524	length_cor:0.3635	root_date:-14.0503	mutation_rate:16.1419
+step:860	loss:2584496128.0000	date_cor:0.9934	date_error:3.7515	date_error_med:0.9559	max_date_error:775.7435	length_cor:0.3636	root_date:-14.0495	mutation_rate:16.1509
+step:870	loss:2582391552.0000	date_cor:0.9934	date_error:3.7497	date_error_med:0.9542	max_date_error:775.7344	length_cor:0.3636	root_date:-14.0487	mutation_rate:16.1596
+step:880	loss:2580326912.0000	date_cor:0.9934	date_error:3.7479	date_error_med:0.9528	max_date_error:775.7253	length_cor:0.3637	root_date:-14.0479	mutation_rate:16.1682
+step:890	loss:2578306048.0000	date_cor:0.9934	date_error:3.7462	date_error_med:0.9514	max_date_error:775.7162	length_cor:0.3637	root_date:-14.0471	mutation_rate:16.1765
+step:900	loss:2576329216.0000	date_cor:0.9934	date_error:3.7444	date_error_med:0.9500	max_date_error:775.7070	length_cor:0.3637	root_date:-14.0463	mutation_rate:16.1847
+step:910	loss:2574394880.0000	date_cor:0.9934	date_error:3.7428	date_error_med:0.9488	max_date_error:775.6977	length_cor:0.3638	root_date:-14.0455	mutation_rate:16.1928
+step:920	loss:2572498432.0000	date_cor:0.9934	date_error:3.7412	date_error_med:0.9476	max_date_error:775.6883	length_cor:0.3638	root_date:-14.0447	mutation_rate:16.2008
+step:930	loss:2570639360.0000	date_cor:0.9934	date_error:3.7397	date_error_med:0.9464	max_date_error:775.6788	length_cor:0.3638	root_date:-14.0439	mutation_rate:16.2087
+step:940	loss:2568813056.0000	date_cor:0.9934	date_error:3.7382	date_error_med:0.9448	max_date_error:775.6694	length_cor:0.3639	root_date:-14.0431	mutation_rate:16.2164
+step:950	loss:2567017216.0000	date_cor:0.9934	date_error:3.7368	date_error_med:0.9438	max_date_error:775.6598	length_cor:0.3639	root_date:-14.0422	mutation_rate:16.2241
+step:960	loss:2565248256.0000	date_cor:0.9934	date_error:3.7353	date_error_med:0.9426	max_date_error:775.6501	length_cor:0.3640	root_date:-14.0414	mutation_rate:16.2315
+step:970	loss:2563515648.0000	date_cor:0.9934	date_error:3.7340	date_error_med:0.9415	max_date_error:775.6404	length_cor:0.3640	root_date:-14.0406	mutation_rate:16.2387
+step:980	loss:2561806848.0000	date_cor:0.9934	date_error:3.7325	date_error_med:0.9406	max_date_error:775.6307	length_cor:0.3640	root_date:-14.0397	mutation_rate:16.2458
+step:990	loss:2560131584.0000	date_cor:0.9934	date_error:3.7311	date_error_med:0.9398	max_date_error:775.6208	length_cor:0.3641	root_date:-14.0389	mutation_rate:16.2527
+step:999	loss:2558652416.0000	date_cor:0.9934	date_error:3.7299	date_error_med:0.9387	max_date_error:775.6119	length_cor:0.3641	root_date:-14.0381	mutation_rate:16.2588
+Fit completed. Extracting parameters.
+Assuming tree file is newick (change extension for nexus)
+Writing tree to file
+
+Wrote tree to ../../datasets/GISAID/GISAID-hCoV-19-phylogeny-2022-04-04/chronumental_timetree_global.tree
+Wrote predicted dates to ../../datasets/GISAID/GISAID-hCoV-19-phylogeny-2022-04-04/chronumental_dates_date_file.tsv.tsv
